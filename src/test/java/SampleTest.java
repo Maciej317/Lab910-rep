@@ -23,7 +23,7 @@ public class SampleTest {
     @Test
     public void test4(){
         Calculator cal = new Calculator();
-        int result = cal.add(3, 7);
+        int result = cal.add(45, 7);
         assert result == 10;
     }
 

@@ -16,8 +16,8 @@ public class SampleTest {
 
     @Test
     public void test3(){
-        int x = 8;
-        assert x / 2 == 4;
+        int x =56;
+        assert (x / 2) == 4;
     }
 
     @Test

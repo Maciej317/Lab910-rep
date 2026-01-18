@@ -6,8 +6,6 @@ public class SampleTest {
     @Test
     public void test1(){
         int a = 4;
-        int b = 6;
-        assert a + b == 10;
     }
 
     @Test

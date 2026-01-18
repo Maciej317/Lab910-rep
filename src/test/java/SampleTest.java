@@ -16,15 +16,15 @@ public class SampleTest {
 
     @Test
     public void test3(){
-        int x =10;
-        assert (x / 2) == 5;
+        int x =100;
+        assert (x / 2) == 50;
     }
 
     @Test
     public void test4(){
         Calculator cal = new Calculator();
-        int result = cal.add(4, 7);
-        assert result == 11;
+        int result = cal.add(15, 20);
+        assert result == 35;
     }
 
     @Test
